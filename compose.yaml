@@ -11,7 +11,7 @@ services:
     environment:
       PGHOST: db
       PGUSER: postgres
-      PGDATABASE: campus_stock
+      PGDATABASE: campus_store
     depends_on:
       db:
         condition: service_healthy
